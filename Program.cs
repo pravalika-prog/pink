@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace basic1
+namespace subraction
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 10;
+            int b = 20;
+            int c = a - b;
+            Console.WriteLine(c);
         }
     }
 }
